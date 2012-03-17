@@ -1,0 +1,72 @@
+#cardfile
+{
+	cursor: pointer;
+} 
+
+ #content
+  {
+	position: absolute;
+	top: 50;
+    left: 600px;	
+	text-align: right;
+  }
+  
+  body
+  {
+	font-family: "Sakkal Majalla",Arial;
+	font-size: 30px;
+	padding:0;
+	padding-top: 5px;
+	margin:0;
+	background-image:url('../images/new_site.jpg');
+	background-repeat:no-repeat;
+  }
+  
+  p { margin: 10px 0 10px 5px; }
+  
+  .page
+  {
+	display: none;  
+  }
+  
+  .ui-widget-content table
+  {
+	font-size: 15px !important;	
+	line-height: 22px;
+	color: white;
+  }
+  
+  .ui-widget
+  {
+	font-size: 15px !important;	
+	line-height: 22px;
+  }
+  
+  .ui-widget-header
+  {
+	  font-size: 18px;
+  }
+  
+  #footer
+  {
+	font-size: 20px;
+	position: absolute;
+	top: 650px;
+	left: 50px;
+  }
+  
+  .menu_item
+  {	
+	cursor: pointer;
+  }
+  
+  .menu_hover
+  {
+	background-color: black;
+	color: white;
+  }
+  
+  td#gap
+  {
+	width: 30px;
+  }
