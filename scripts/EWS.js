@@ -14,16 +14,6 @@ EWS.setupLinks = function() {
 				autoOpen: false
 		};
 	
-	$('#creation_menu').bind('click', function() {
-		$('#creation_story').dialog(dialog_options);
-		$('#creation_story').dialog('open');
-	});
-	
-	$('#services_menu').bind('click', function() {
-		$('#services').dialog(dialog_options);
-		$('#services').dialog('open');
-	});
-	
 	$('#contact_menu,#cardfile').bind('click', function() {
 		$('#contact').dialog(dialog_options);
 		$('#contact').dialog('open');
