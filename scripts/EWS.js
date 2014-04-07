@@ -23,6 +23,11 @@ EWS.setupLinks = function() {
 		$('#services').dialog('open');
 	});
 	
+	$('#creation_menu').bind('click', function() {
+		$('#creation_story').dialog(dialog_options);
+		$('#creation_story').dialog('open');
+	});
+	
 	$('.menu_item').hover(function() { $(this).addClass('menu_hover'); }, function() {$(this).removeClass('menu_hover');});
 
 };
